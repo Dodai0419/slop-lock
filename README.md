@@ -76,3 +76,6 @@ Scope cut: English only, plain text and Markdown/LaTeX input (upstream also read
 
 ## License
 MIT
+
+## Related tools
+- All tools, one install pattern: [github.com/Dodai0419](https://github.com/Dodai0419)
