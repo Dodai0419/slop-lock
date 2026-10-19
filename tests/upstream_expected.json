@@ -1,0 +1,172 @@
+{
+ "check": {
+  "before.md": [
+   "semicolons: 2",
+   "AI words: ['underscore', 'interplay']",
+   "AI phrases: ['shed light on']",
+   "filler transitions: ['Moreover']",
+   "pause-and-point / closers / contrasts: ['not just a methodological detail, but']",
+   "filler hedges: ['it is worth noting']",
+   "sentences: 24, mean 15.7 words, 50% within 5 words of the median",
+   "openers: 42% of sentences start with The/It/This/That/You",
+   "words: 377"
+  ],
+  "after.md": [
+   "semicolons: 2",
+   "sentences: 18, mean 13.7 words, 50% within 5 words of the median",
+   "words: 246"
+  ],
+  "tampered.md": [
+   "semicolons: 2",
+   "sentences: 18, mean 13.6 words, 50% within 5 words of the median",
+   "words: 244"
+  ]
+ },
+ "lock": {
+  "after.md": {
+   "status": "review",
+   "categories": {
+    "numbers": {
+     "before_count": 6,
+     "after_count": 6,
+     "removed": [],
+     "added": []
+    },
+    "citations": {
+     "before_count": 2,
+     "after_count": 2,
+     "removed": [],
+     "added": []
+    },
+    "identifiers": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "protected_spans": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "terms": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "stance_negation": {
+     "before_count": 10,
+     "after_count": 8,
+     "removed": [
+      "not",
+      "not",
+      "not"
+     ],
+     "added": [
+      "without"
+     ]
+    },
+    "stance_modality": {
+     "before_count": 3,
+     "after_count": 2,
+     "removed": [
+      "would"
+     ],
+     "added": []
+    },
+    "stance_causal": {
+     "before_count": 3,
+     "after_count": 3,
+     "removed": [
+      "because"
+     ],
+     "added": [
+      "associated with"
+     ]
+    }
+   }
+  },
+  "tampered.md": {
+   "status": "fail",
+   "categories": {
+    "numbers": {
+     "before_count": 6,
+     "after_count": 6,
+     "removed": [
+      "1",
+      "1",
+      "P=0.02"
+     ],
+     "added": [
+      "2",
+      "2",
+      "P=0.05"
+     ]
+    },
+    "citations": {
+     "before_count": 2,
+     "after_count": 2,
+     "removed": [
+      "[1]",
+      "[1]"
+     ],
+     "added": [
+      "[2]",
+      "[2]"
+     ]
+    },
+    "identifiers": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "protected_spans": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "terms": {
+     "before_count": 0,
+     "after_count": 0,
+     "removed": [],
+     "added": []
+    },
+    "stance_negation": {
+     "before_count": 10,
+     "after_count": 7,
+     "removed": [
+      "not",
+      "not",
+      "not",
+      "not"
+     ],
+     "added": [
+      "without"
+     ]
+    },
+    "stance_modality": {
+     "before_count": 3,
+     "after_count": 2,
+     "removed": [
+      "would"
+     ],
+     "added": []
+    },
+    "stance_causal": {
+     "before_count": 3,
+     "after_count": 3,
+     "removed": [
+      "because"
+     ],
+     "added": [
+      "associated with"
+     ]
+    }
+   }
+  }
+ }
+}
